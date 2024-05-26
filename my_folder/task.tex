@@ -1,0 +1,112 @@
+%%%% Начало оформления заголовка - оставить без изменений !!! %%%%
+\input{my_folder/task_settings}	% настройки - начало 
+	
+				{%\normalfont %2020
+						\MakeUppercase{\SPbPU}}\\
+				\institute
+
+\par}\intervalS% завершает input
+
+				\noindent
+				\begin{minipage}{\linewidth}
+				\vspace{\mfloatsep} % интервал 	
+				\begin{tabularx}{\linewidth}{Xl}
+					&УТВЕРЖДАЮ      \\
+					&\HeadTitle     \\			
+					&\underline{\hspace*{0.1\textheight}} \Head     \\
+					&<<\underline{\hspace*{0.05\textheight}}>> \underline{\hspace*{0.1\textheight}} \thesisYear г.  \\  
+				\end{tabularx}
+				\vspace{\mfloatsep} % интервал 	
+				\end{minipage}
+
+\intervalS{\centering\bfseries%
+
+				ЗАДАНИЕ\\
+				на выполнение %с 2020 года 
+				%по выполнению % до 2020 года
+				выпускной квалификационной работы
+
+
+\intervalS\normalfont%
+
+				студенту \AuthorFullDat{} гр.~\group
+
+
+\par}\intervalS%
+%%%%
+%%%% Конец оформления заголовка  %%%%
+ 	
+	
+	
+\begin{enumerate}[1.]
+	\item Тема работы: {\expandafter \thesisTitle.}
+	%\item Тема работы (на английском языке): \uline{\thesisTitleEn.} % вероятно после 2021 года
+	\item Срок сдачи студентом законченной работы: \thesisDeadline. 
+	\item Исходные данные по работе: Набор данных для обучения и тестирования, представленный парами объектов следующих типов: изображение с микроскопа разной степени четкости и вещественное число со знаком, означающее направление и расстояние до фокальной плоскости.\\%
+	%\printbibliographyTask % печать списка источников % КОММЕНТИРУЕМ ЕСЛИ НЕ ИСПОЛЬЗУЕТСЯ
+	% В СЛУЧАЕ, ЕСЛИ НЕ ИСПОЛЬЗУЕТСЯ МОЖНО ТАКЖЕ ЗАЙТИ В setup.tex и закомментировать \vspace{-0.28\curtextsize}
+	Инструментальные средства:
+	\begin{itemize}
+		\item Язык программирования python
+		\item Среда разработки Visual Studio Code
+		\item Система контроля версий git
+	\end{itemize}
+	Ключевые источники литературы:
+	\begin{enumerate}
+		\item Ho C. J., Chan C. C., Chen H. H. AF-Net: A convolutional neural network approach to phase detection autofocus //IEEE Transactions on Image Processing. – 2020. – Т. 29. – С. 6386-6395.
+		\item Liao J. et al. Deep learning-based single-shot autofocus method for digital microscopy //Biomedical Optics Express. – 2022. – Т. 13. – №. 1. – С. 314-327.
+	\end{enumerate}
+	\item Содержание работы (перечень подлежащих разработке вопросов):
+	\begin{enumerate}[label=\theenumi\arabic*.]
+		\item Введение. Обоснование актуальности проблемы.
+		\item Постановка задачи.
+		\begin{enumerate}[label=\theenumii\arabic*.]
+			\item Основные уравнения, критерии качества.
+		\end{enumerate}
+		\item Обзор существующих решений.
+		\begin{enumerate}[label=\theenumii\arabic*.]
+			\item Классические метолы.
+			\item Нейросетевые метолы.
+		\end{enumerate}
+		\item Разработка нового нейросетевого решения.
+		\item Эксперименты и тесты.
+		\item Результаты и сравнения с существующими решениями.
+		\item Выводы
+		\item Заключение 
+	\end{enumerate}
+	%\item Перечень графического материала (с указанием обязательных чертежей): 
+	%\begin{enumerate}[label=\theenumi\arabic*.]
+	%	\item Схема работы метода/алгоритма.
+	%	\item Архитектура разработанной программы/библиотеки.
+	%\end{enumerate}	
+	%	\item Консультанты по работе\footnote{Подпись консультанта по нормоконтролю пока не требуется. Назначается всем по умолчанию.}:
+	%	\begin{enumerate}[label=\theenumi\arabic*.] 
+	%	\item  \uline{\emakefirstuc{\ConsultantExtraDegree}, \ConsultantExtra.} % закомментировать при необходимости, идёт первый по порядку.
+	%	\item \uline{\emakefirstuc{\ConsultantNormDegree}, \ConsultantNorm{} (нормоконтроль).} %	Обязателен для всех студентов
+	%\end{enumerate}
+		\item Дата выдачи задания: \uline{\thesisStartDate.}
+\end{enumerate}
+
+\intervalS%можно удалить пробел
+
+Руководитель ВКР \uline{\hspace*{0.3\textheight}} \Supervisor
+
+
+%\intervalS%можно удалить пробел
+
+%Консультант\footnote{В случае, если есть консультант, отличный от консультанта по нормоконтролю.}  \uline{\hspace*{0.1\textheight}\ConsultantExtra}
+
+
+\intervalS%можно удалить пробел
+
+%Консультант по нормоконтролю \uline{\hspace*{0.1\textheight} \ConsultantNorm}%ПОКА НЕ ТРЕБУЕТСЯ, Т.К. ОН У ВСЕХ ПО УМОЛЧАНИЮ
+
+Задание принял к исполнению %\uline{\thesisStartDate}
+
+\intervalS%можно удалить пробел
+
+Студент \uline{\hspace*{0.4\textheight}} \Author
+
+
+
+\input{my_folder/task_settings_restore}	% настройки - конец
