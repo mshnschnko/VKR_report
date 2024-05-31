@@ -59,7 +59,7 @@
 %%
 %%
 \newcommand{\group}{5030102/00201} % заменить вместо N номер группы
-\newcommand{\thesisSpecialtyCode}{5030102/00201}% код направления подготовки
+\newcommand{\thesisSpecialtyCode}{01.03.02}% код направления подготовки
 \newcommand{\thesisSpecialtyTitle}{Прикладная математика и информатика} % наименование направления/специальности
 \newcommand{\thesisOPPostfix}{02} % последние цифры кода образовательной программы (после <<_>>)
 \newcommand{\thesisOPTitle}{Системное программирование}% наименование образовательной программы
@@ -92,10 +92,10 @@
 %% Ключевых слов от 3 до 5 слов или словосочетаний в именительном падеже именительном падеже множественного числа (или в единственном числе, если нет другой формы) по правилам русского языка!!!
 %%
 %%
-\newcommand{\keywordsRu}{Автофокусировка, Электронная микроскопия, Свёрточные нейронные сети, Архитектура сети} % ВВЕДИТЕ ключевые слова по-русски
+\newcommand{\keywordsRu}{Автофокусировка, Цифровая микроскопия, Свёрточные нейронные сети, Архитектура сети} % ВВЕДИТЕ ключевые слова по-русски
 %%
 %%
-\newcommand{\keywordsEn}{Autofocus, Electron microscopy, Convolutional neural networks, Network architecture} % ВВЕДИТЕ ключевые слова по-английски
+\newcommand{\keywordsEn}{Autofocus, Digital microscopy, Convolutional neural networks, Network architecture} % ВВЕДИТЕ ключевые слова по-английски
 %%
 %%
 %% Реферат ОТ 1000 ДО 1500 знаков на русский или английский текст
@@ -107,37 +107,37 @@
 %- область применения результатов ВКР;
 %- выводы.
 \newcommand\tab[1][1.3cm]{\hspace*{#1}}
-\newcommand{\abstractRu}{Данная работа посвящена различным методом автофокусировки электронных микроскопов, а также разработке и реализации нового подхода к этой задаче с применением нейронных сетей и глубокого обучения.\\\tab В результате был разработан алгоритм автофокусировки электронного микроскопа, который не зависит от конкретного оборудования и не требует интеграции в программное обеспечение микроскопа или камеры. Алгоритм основан на архитектуре сверточной нейронной сети MobileNetV2. Сеть обучалась на наборе самостоятельно собранных данных, состоящем из снимков с микроскопа и вещественных чисел, обозначающих расстояние до фокальной плоскости с учетом направления.\\\tab По результатам тестирования был сделан следующий вывод: представленный алгоритм может быть применим на практике, так как он имеет высокую скорость работы и отличное качество, не устпупающее классическим методам, но при этом более устойчив к шуму.} % ВВЕДИТЕ текст аннотации по-русски
+\newcommand{\abstractRu}{Данная работа посвящена различным методом автофокусировки электронных микроскопов, а также разработке и реализации нового подхода к этой задаче с применением нейронных сетей и глубокого обучения.\\\tab В результате был разработан алгоритм автофокусировки электронного микроскопа, который не зависит от конкретного оборудования и не требует интеграции в программное обеспечение микроскопа или камеры. Алгоритм основан на архитектуре сверточной нейронной сети MobileNetV3. Сеть обучалась на наборе самостоятельно собранных данных, состоящем из снимков с микроскопа и вещественных чисел, обозначающих расстояние до фокальной плоскости с учетом направления.\\\tab По результатам тестирования был сделан следующий вывод: представленный алгоритм может быть применим на практике, так как он имеет высокую скорость работы и отличное качество, не устпупающее классическим методам, но при этом более устойчив к шуму.} % ВВЕДИТЕ текст аннотации по-русски
 %%
 %%
-\newcommand{\abstractEn}{This work is devoted to various methods of autofocusing electron microscopes, as well as the development and implementation of a new approach to this task using neural networks and deep learning.\\\tab As a result, an autofocus algorithm for an electron microscope has been developed, which does not depend on specific equipment and does not require integration into the software of the microscope or camera. The algorithm is based on the architecture of the convolutional neural network MobileNetV2. The network was trained on a set of independently collected data consisting of images from a microscope and real numbers indicating the distance to the focal plane, taking into account the direction.\\\tab Based on the test results, the following conclusion was made: the presented algorithm can be applied in practice, since it has a high speed and excellent quality, not inferior to classical methods, but at the same time more resistant to noise.} % ВВЕДИТЕ текст аннотации по-английски
+\newcommand{\abstractEn}{This work is devoted to various methods of autofocusing electron microscopes, as well as the development and implementation of a new approach to this task using neural networks and deep learning.\\\tab As a result, an autofocus algorithm for an electron microscope has been developed, which does not depend on specific equipment and does not require integration into the software of the microscope or camera. The algorithm is based on the architecture of the convolutional neural network MobileNetV3. The network was trained on a set of independently collected data consisting of images from a microscope and real numbers indicating the distance to the focal plane, taking into account the direction.\\\tab Based on the test results, the following conclusion was made: the presented algorithm can be applied in practice, since it has a high speed and excellent quality, not inferior to classical methods, but at the same time more resistant to noise.} % ВВЕДИТЕ текст аннотации по-английски
 
 
 %%% РАЗДЕЛ ДЛЯ ОФОРМЛЕНИЯ ПРАКТИКИ
 %Место прохождения практики
 \newcommand{\PracticeType}{Отчет о прохождении % 
 	%стационарной производственной (технологической (проектно-технологической)) %
-	такой-то % тип и вид ЗАМЕНИТЬ
+	преддипломной % тип и вид ЗАМЕНИТЬ
 	практики}
 
-\newcommand{\Workplace}{СПбПУ, ИКНТ, ВШИСиСТ} % TODO Rename this variable
+\newcommand{\Workplace}{СПбПУ, ФизМех, ВШПМиВФ} % TODO Rename this variable
 
 % Даты начала/окончания
 \newcommand{\PracticeStartDate}{%
-дд.мм.гггг%
+03.05.2024%
 %	22.06.2020
 }%
 \newcommand{\PracticeEndDate}{%
-	дд.мм.гггг%
+	31.05.2024%
 %	18.07.2020%
 }%
 %%
 
 \newcommand{\School}{
-	Название высшей школы
+	Высшая школа прикладной математики и вычислительной физики
 %	Высшая школа интеллектуальных систем и~суперкомпьютерных~технологий 
 }
-\newcommand{\practiceTitle}{Тема практики}
+\newcommand{\practiceTitle}{Нейросетевые и классические методы для задачи автофокуса цифрового микроскопа}
 
 
 %% ВНИМАНИЕ! Необходимо либо заменить текст аннотации (ключевых слов) на русском и английском, либо удалить там весь текст, иначе в свойства pdf-отчета по практике пойдет шаблонный текст.
